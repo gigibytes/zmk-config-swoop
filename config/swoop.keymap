@@ -38,14 +38,16 @@
         eql: eql {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp EQUAL &kp GT>;
+            bindings = <&kp EQUAL &kp GT>, <&macro_press>;
+
             label = "EQL";
         };
 
         eqp: eqp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp COLON &kp EQUAL>;
+            bindings = <&kp COLON &kp EQUAL>, <&macro_press>;
+
             label = "EQP";
         };
     };
