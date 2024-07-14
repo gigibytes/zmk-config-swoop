@@ -76,7 +76,7 @@
         layer_2 {
             bindings = <
 &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)
-&kp GRAVE     &kp LS(TILDE)  &kp SQT        &kp LS(DQT)   &kp EQUAL        &kp LEFT       &kp UP        &kp DOWN      &kp RIGHT     &none
+&kp GRAVE     &kp LS(TILDE)  &kp SQT        &kp LS(DQT)   &kp EQUAL        &kp LEFT       &kp DOWN      &kp UP        &kp RIGHT     &none
 &kp CAPS      &none          &kp BSLH       &kp LS(PIPE)  &none            &none          &none         &none         &kp C_VOL_DN  &kp C_VOLUME_UP
                              &none          &kp DEL       &mo 3            &none          &none         &none
             >;
