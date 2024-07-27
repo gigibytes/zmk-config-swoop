@@ -83,10 +83,10 @@
 
         layer_2 {
             bindings = <
-&kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)          &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)
-&kp TILDE     &kp GRAVE   &kp SQT        &kp DOUBLE_QUOTES     &kp EQUAL        &kp LEFT       &kp DOWN      &kp UP        &kp RIGHT     &none
-&kp CAPS      &none       &kp PIPE       &kp NON_US_BACKSLASH  &none            &kp C_PREV     &kp C_PP      &kp C_NEXT    &kp C_VOL_DN  &kp C_VOLUME_UP
-                          &none          &kp DEL               &mo 3            &none          &none         &none
+&kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)       &kp LS(PRCNT)    &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)
+&kp TILDE     &kp GRAVE   &kp SQT        &kp DOUBLE_QUOTES  &kp EQUAL        &kp LEFT       &kp DOWN      &kp UP        &kp RIGHT     &none
+&kp CAPS      &none       &kp PIPE       &kp BACKSLASH      &none            &kp C_PREV     &kp C_PP      &kp C_NEXT    &kp C_VOL_DN  &kp C_VOLUME_UP
+                          &none          &kp DEL            &mo 3            &none          &none         &none
             >;
         };
 
